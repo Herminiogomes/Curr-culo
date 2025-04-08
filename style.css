@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body, footer {
+    font-family: system-ui, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(248, 250, 251);
+  }
+  
+  .fundo {
+    margin-right: 200px;
+    border-radius: 10px;
+    width: 100%;
+    height: 250px;
+    background-image: url('Gemini_Generated_Image_luefe1luefe1luef.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .foto-container {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: -125px;
+    position: relative;
+    z-index: 2;
+    flex-wrap: wrap;
+  }
+  
+  .foto {
+    margin-left: 200px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+  
+  .conteudo {
+    padding-left: 20px;
+    padding-top: 20px;
+    color: black;
+  }
+  
+  .container {
+    border-radius: 15px;
+    color: white;
+    background-color: cadetblue;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .coluna {
+    margin-left: 150px;
+    flex: 1;
+    padding: 20px;
+    min-width: 300px;
+  }
+  
+  .titulo {
+    color: black;
+  }
+  
+  .instituicao {
+    color: black;
+    font-weight: bold;
+  }
+  
+  .contato-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .contato-item img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .contato-item a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer {
+    background-color: rgb(5, 5, 23);
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .foto-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .conteudo {
+      padding: 10px;
+      margin-top: 10px;
+    }
+  
+    .coluna {
+      flex: 100%;
+    }
+  }
+  
